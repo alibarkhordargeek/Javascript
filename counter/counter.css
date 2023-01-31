@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+#description {
+    font-size: 25px;
+}
+#counter {
+    font-size: 30px;
+}
+#buttons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    transition-duration: 500ms;
+}
+#buttons button:hover {
+    box-shadow: 1px 1px gray;
+}
+#buttons button.start {
+    background-color: cadetblue;
+}
+#buttons button.pause {
+    background-color: rgb(238, 92, 92);
+}
+#buttons button.start:disabled {
+    background-color: gray;
+}
+#buttons button.pause:disabled {
+    background-color: gray;
+}
